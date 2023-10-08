@@ -71,7 +71,7 @@ while True:
     mouse = pg.mouse.get_pressed()
     try:
         if mouse[0]:
-            create_ball(space, event.pos)
+            create_ball(space, event.pos, 50, 5)
             count += 1
         if mouse[1]:
             create_ball(space, event.pos, 50, 75, (255, 0, 0, 0.8))
